@@ -1,0 +1,81 @@
+:root{
+    --primary:crimson;
+    --dark:#1F2937;
+    --darkdark:#111827;
+    --light:#F3F4F6;
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family:'fira snas',sans-serif;
+}
+body{
+    background: var(--dark);
+    color:var(--light);
+    animation-name:body;
+    animation-duration: 3s;
+    animation-iteration-count:infinite ;
+}
+/* @keyframes body{
+    
+    0%{background-color:lightpink}
+    25%{background-color:rgb(118, 231, 13)}
+    50%{background-color:rgb(10, 243, 154)}
+    75%{background-color:rgb(8, 234, 241)}
+    100%{background-color:rgb(250, 9, 190)}
+    
+} */
+
+
+
+.watch{
+    text-align:center;
+    background-color:var(--darkdark);
+    width:100%;
+    max-width:360px;
+    margin:4rem auto;
+    padding:1rem 2rem;
+    border-radius:1rem;
+    
+}
+
+.time{
+    font-size:5rem;
+    margin-bottom:1rem;
+    animation-name:time;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes time{
+    0%{color:lightpink}
+    25%{color:rgb(118, 231, 13)}
+    50%{color:rgb(10, 243, 154)}
+    75%{color:rgb(8, 234, 241)}
+    100%{color:rgb(250, 9, 190)}
+}
+
+
+
+.controls button{
+    color:rgb(255, 0, 128);
+    background-color: rgb(250, 214, 7);
+    padding:8px 18px 8px 18px;
+    margin:10px;
+    font-size:0.9rem;
+    font-style:italic;
+    border-radius: 1rem;
+    opacity:0.5;
+    transition: 0.6s;
+   
+    
+}
+.controls button:hover{
+    background-color:rgb(202, 202, 15);
+    color:rgb(4, 158, 247);
+    opacity:1;
+    padding:8px 20px 8px 20px;
+    
+    
+}
+
